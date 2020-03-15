@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 
-app = Flask(__name__)
+apps = Flask(__name__)
 
 books = [
     {
