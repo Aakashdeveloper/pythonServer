@@ -48,6 +48,3 @@ def get_book_by_isbn(isbn):
     return jsonify(return_value)
 
 app.run(port=3300)
-
-
-
